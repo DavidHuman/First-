@@ -7,17 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98B1671E7A186B763A4C572D /* libPods-HTProjectManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC0DF1F4C21C05B1C9BCD82 /* libPods-HTProjectManager.a */; };
 		9B11288D1FB9D12300740DB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B11288C1FB9D12300740DB3 /* main.m */; };
 		9B1128901FB9D12300740DB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B11288F1FB9D12300740DB3 /* AppDelegate.m */; };
 		9B1128981FB9D12300740DB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1128971FB9D12300740DB3 /* Assets.xcassets */; };
 		9B11289B1FB9D12300740DB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1128991FB9D12300740DB3 /* LaunchScreen.storyboard */; };
 		9B1128A61FB9D12300740DB3 /* HTProjectManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1128A51FB9D12300740DB3 /* HTProjectManagerTests.m */; };
 		9B1128B11FB9D12300740DB3 /* HTProjectManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1128B01FB9D12300740DB3 /* HTProjectManagerUITests.m */; };
-		9B96C9DD1FBB073100EE26E5 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = 9B96C9DC1FBB073100EE26E5 /* Features */; };
-		9B96C9DF1FBB076100EE26E5 /* Network in Resources */ = {isa = PBXBuildFile; fileRef = 9B96C9DE1FBB076100EE26E5 /* Network */; };
-		9B96C9E11FBB077500EE26E5 /* Tools in Resources */ = {isa = PBXBuildFile; fileRef = 9B96C9E01FBB077500EE26E5 /* Tools */; };
-		9B96C9E31FBB078E00EE26E5 /* Frameworks in Resources */ = {isa = PBXBuildFile; fileRef = 9B96C9E21FBB078E00EE26E5 /* Frameworks */; };
-		9B96C9E51FBB07B500EE26E5 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 9B96C9E41FBB07B500EE26E5 /* Resources */; };
+		AEE4F6A31FBC19A500935529 /* HTLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE4F6A11FBC19A500935529 /* HTLogViewController.m */; };
+		AEE4F6A41FBC19A500935529 /* HTLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEE4F6A21FBC19A500935529 /* HTLogViewController.xib */; };
+		AEE4F6A91FBC30DC00935529 /* proviline_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE4F6A61FBC30DC00935529 /* proviline_bg.png */; };
+		AEE4F6AA1FBC30DC00935529 /* proviline_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE4F6A71FBC30DC00935529 /* proviline_bg@2x.png */; };
+		AEE4F6AB1FBC30DC00935529 /* proviline_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE4F6A81FBC30DC00935529 /* proviline_bg@3x.png */; };
+		AEE4F6AE1FBC440F00935529 /* QLTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE4F6AD1FBC440F00935529 /* QLTabbarController.m */; };
+		AEE4F6BE1FBC452B00935529 /* HTFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE4F6BC1FBC452B00935529 /* HTFindViewController.m */; };
+		AEE4F6BF1FBC452B00935529 /* HTFindViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEE4F6BD1FBC452B00935529 /* HTFindViewController.xib */; };
+		AEE4F6C31FBC454200935529 /* HTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE4F6C11FBC454200935529 /* HTHomeViewController.m */; };
+		AEE4F6C41FBC454200935529 /* HTHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEE4F6C21FBC454200935529 /* HTHomeViewController.xib */; };
+		AEE4F6C81FBC455200935529 /* HTMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE4F6C61FBC455200935529 /* HTMyViewController.m */; };
+		AEE4F6C91FBC455200935529 /* HTMyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEE4F6C71FBC455200935529 /* HTMyViewController.xib */; };
+		AEE4F6CE1FBC45E600935529 /* QLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE4F6CB1FBC45E600935529 /* QLTabBar.m */; };
+		AEE4F6CF1FBC45E600935529 /* QLTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE4F6CD1FBC45E600935529 /* QLTabBarButton.m */; };
+		AEE4F6D61FBC485600935529 /* GJRedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE4F6D31FBC485600935529 /* GJRedDotView.m */; };
+		AEE4F6D71FBC485600935529 /* UIView+GJRedDot.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE4F6D51FBC485600935529 /* UIView+GJRedDot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52390A9E784F6717BECF71A4 /* Pods-HTProjectManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTProjectManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTProjectManager/Pods-HTProjectManager.debug.xcconfig"; sourceTree = "<group>"; };
 		9B1128881FB9D12300740DB3 /* HTProjectManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTProjectManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B11288C1FB9D12300740DB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9B11288E1FB9D12300740DB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,11 +64,33 @@
 		9B1128AC1FB9D12300740DB3 /* HTProjectManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTProjectManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1128B01FB9D12300740DB3 /* HTProjectManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTProjectManagerUITests.m; sourceTree = "<group>"; };
 		9B1128B21FB9D12300740DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B96C9DC1FBB073100EE26E5 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Features; sourceTree = "<group>"; };
-		9B96C9DE1FBB076100EE26E5 /* Network */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Network; sourceTree = "<group>"; };
-		9B96C9E01FBB077500EE26E5 /* Tools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tools; sourceTree = "<group>"; };
-		9B96C9E21FBB078E00EE26E5 /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Frameworks; sourceTree = "<group>"; };
-		9B96C9E41FBB07B500EE26E5 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		AEE4F6A01FBC19A500935529 /* HTLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLogViewController.h; sourceTree = "<group>"; };
+		AEE4F6A11FBC19A500935529 /* HTLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLogViewController.m; sourceTree = "<group>"; };
+		AEE4F6A21FBC19A500935529 /* HTLogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTLogViewController.xib; sourceTree = "<group>"; };
+		AEE4F6A61FBC30DC00935529 /* proviline_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = proviline_bg.png; sourceTree = "<group>"; };
+		AEE4F6A71FBC30DC00935529 /* proviline_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "proviline_bg@2x.png"; sourceTree = "<group>"; };
+		AEE4F6A81FBC30DC00935529 /* proviline_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "proviline_bg@3x.png"; sourceTree = "<group>"; };
+		AEE4F6AC1FBC440F00935529 /* QLTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLTabbarController.h; sourceTree = "<group>"; };
+		AEE4F6AD1FBC440F00935529 /* QLTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLTabbarController.m; sourceTree = "<group>"; };
+		AEE4F6BB1FBC452B00935529 /* HTFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTFindViewController.h; sourceTree = "<group>"; };
+		AEE4F6BC1FBC452B00935529 /* HTFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTFindViewController.m; sourceTree = "<group>"; };
+		AEE4F6BD1FBC452B00935529 /* HTFindViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTFindViewController.xib; sourceTree = "<group>"; };
+		AEE4F6C01FBC454200935529 /* HTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeViewController.h; sourceTree = "<group>"; };
+		AEE4F6C11FBC454200935529 /* HTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeViewController.m; sourceTree = "<group>"; };
+		AEE4F6C21FBC454200935529 /* HTHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTHomeViewController.xib; sourceTree = "<group>"; };
+		AEE4F6C51FBC455200935529 /* HTMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMyViewController.h; sourceTree = "<group>"; };
+		AEE4F6C61FBC455200935529 /* HTMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMyViewController.m; sourceTree = "<group>"; };
+		AEE4F6C71FBC455200935529 /* HTMyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTMyViewController.xib; sourceTree = "<group>"; };
+		AEE4F6CA1FBC45E600935529 /* QLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLTabBar.h; sourceTree = "<group>"; };
+		AEE4F6CB1FBC45E600935529 /* QLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLTabBar.m; sourceTree = "<group>"; };
+		AEE4F6CC1FBC45E600935529 /* QLTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLTabBarButton.h; sourceTree = "<group>"; };
+		AEE4F6CD1FBC45E600935529 /* QLTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLTabBarButton.m; sourceTree = "<group>"; };
+		AEE4F6D21FBC485600935529 /* GJRedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJRedDotView.h; sourceTree = "<group>"; };
+		AEE4F6D31FBC485600935529 /* GJRedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJRedDotView.m; sourceTree = "<group>"; };
+		AEE4F6D41FBC485600935529 /* UIView+GJRedDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GJRedDot.h"; sourceTree = "<group>"; };
+		AEE4F6D51FBC485600935529 /* UIView+GJRedDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GJRedDot.m"; sourceTree = "<group>"; };
+		BBC0DF1F4C21C05B1C9BCD82 /* libPods-HTProjectManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HTProjectManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C179817A4B11C14166F039DC /* Pods-HTProjectManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTProjectManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTProjectManager/Pods-HTProjectManager.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B1671E7A186B763A4C572D /* libPods-HTProjectManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,18 +119,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A0EB824016AB4E6D4A82477 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52390A9E784F6717BECF71A4 /* Pods-HTProjectManager.debug.xcconfig */,
+				C179817A4B11C14166F039DC /* Pods-HTProjectManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9B11287F1FB9D12300740DB3 = {
 			isa = PBXGroup;
 			children = (
-				9B96C9DC1FBB073100EE26E5 /* Features */,
-				9B96C9DE1FBB076100EE26E5 /* Network */,
-				9B96C9E01FBB077500EE26E5 /* Tools */,
-				9B96C9E21FBB078E00EE26E5 /* Frameworks */,
-				9B96C9E41FBB07B500EE26E5 /* Resources */,
+				AEE4F69B1FBC192200935529 /* Class */,
+				AE3D705F1FBBDD09002B9C23 /* Bases */,
+				AE3D705D1FBBD075002B9C23 /* Tools */,
+				AE3D705C1FBBD065002B9C23 /* Frameworks */,
+				AE3D705B1FBBD04D002B9C23 /* Resources */,
+				AE3D705A1FBBD03C002B9C23 /* Network */,
 				9B11288A1FB9D12300740DB3 /* HTProjectManager */,
 				9B1128A41FB9D12300740DB3 /* HTProjectManagerTests */,
 				9B1128AF1FB9D12300740DB3 /* HTProjectManagerUITests */,
 				9B1128891FB9D12300740DB3 /* Products */,
+				2A0EB824016AB4E6D4A82477 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,6 +194,226 @@
 			path = HTProjectManagerUITests;
 			sourceTree = "<group>";
 		};
+		AE3D705A1FBBD03C002B9C23 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AE3D705B1FBBD04D002B9C23 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AEE4F6A51FBC30DC00935529 /* longin */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AE3D705C1FBBD065002B9C23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBC0DF1F4C21C05B1C9BCD82 /* libPods-HTProjectManager.a */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE3D705D1FBBD075002B9C23 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				AEE4F6D01FBC485600935529 /* GJRedDot */,
+				AEE4F6CA1FBC45E600935529 /* QLTabBar.h */,
+				AEE4F6CB1FBC45E600935529 /* QLTabBar.m */,
+				AEE4F6CC1FBC45E600935529 /* QLTabBarButton.h */,
+				AEE4F6CD1FBC45E600935529 /* QLTabBarButton.m */,
+				AEE4F6AC1FBC440F00935529 /* QLTabbarController.h */,
+				AEE4F6AD1FBC440F00935529 /* QLTabbarController.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		AE3D705F1FBBDD09002B9C23 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		AEE4F69B1FBC192200935529 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				AEE4F6AF1FBC450E00935529 /* Find */,
+				AEE4F6B31FBC450E00935529 /* Home */,
+				AEE4F6B71FBC450E00935529 /* My */,
+				AEE4F69C1FBC198D00935529 /* Login */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		AEE4F69C1FBC198D00935529 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AEE4F69D1FBC198D00935529 /* Controler */,
+				AEE4F69E1FBC198D00935529 /* Model */,
+				AEE4F69F1FBC198D00935529 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AEE4F69D1FBC198D00935529 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				AEE4F6A01FBC19A500935529 /* HTLogViewController.h */,
+				AEE4F6A11FBC19A500935529 /* HTLogViewController.m */,
+				AEE4F6A21FBC19A500935529 /* HTLogViewController.xib */,
+			);
+			path = Controler;
+			sourceTree = "<group>";
+		};
+		AEE4F69E1FBC198D00935529 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AEE4F69F1FBC198D00935529 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEE4F6A51FBC30DC00935529 /* longin */ = {
+			isa = PBXGroup;
+			children = (
+				AEE4F6A61FBC30DC00935529 /* proviline_bg.png */,
+				AEE4F6A71FBC30DC00935529 /* proviline_bg@2x.png */,
+				AEE4F6A81FBC30DC00935529 /* proviline_bg@3x.png */,
+			);
+			path = longin;
+			sourceTree = "<group>";
+		};
+		AEE4F6AF1FBC450E00935529 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				AEE4F6B01FBC450E00935529 /* Controler */,
+				AEE4F6B11FBC450E00935529 /* Model */,
+				AEE4F6B21FBC450E00935529 /* View */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		AEE4F6B01FBC450E00935529 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				AEE4F6BB1FBC452B00935529 /* HTFindViewController.h */,
+				AEE4F6BC1FBC452B00935529 /* HTFindViewController.m */,
+				AEE4F6BD1FBC452B00935529 /* HTFindViewController.xib */,
+			);
+			path = Controler;
+			sourceTree = "<group>";
+		};
+		AEE4F6B11FBC450E00935529 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AEE4F6B21FBC450E00935529 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEE4F6B31FBC450E00935529 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AEE4F6B41FBC450E00935529 /* Controler */,
+				AEE4F6B51FBC450E00935529 /* Model */,
+				AEE4F6B61FBC450E00935529 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AEE4F6B41FBC450E00935529 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				AEE4F6C01FBC454200935529 /* HTHomeViewController.h */,
+				AEE4F6C11FBC454200935529 /* HTHomeViewController.m */,
+				AEE4F6C21FBC454200935529 /* HTHomeViewController.xib */,
+			);
+			path = Controler;
+			sourceTree = "<group>";
+		};
+		AEE4F6B51FBC450E00935529 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AEE4F6B61FBC450E00935529 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEE4F6B71FBC450E00935529 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				AEE4F6B81FBC450E00935529 /* Controler */,
+				AEE4F6B91FBC450E00935529 /* Model */,
+				AEE4F6BA1FBC450E00935529 /* View */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		AEE4F6B81FBC450E00935529 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				AEE4F6C51FBC455200935529 /* HTMyViewController.h */,
+				AEE4F6C61FBC455200935529 /* HTMyViewController.m */,
+				AEE4F6C71FBC455200935529 /* HTMyViewController.xib */,
+			);
+			path = Controler;
+			sourceTree = "<group>";
+		};
+		AEE4F6B91FBC450E00935529 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AEE4F6BA1FBC450E00935529 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEE4F6D01FBC485600935529 /* GJRedDot */ = {
+			isa = PBXGroup;
+			children = (
+				AEE4F6D11FBC485600935529 /* GJDeallocBlockExecutor */,
+				AEE4F6D21FBC485600935529 /* GJRedDotView.h */,
+				AEE4F6D31FBC485600935529 /* GJRedDotView.m */,
+				AEE4F6D41FBC485600935529 /* UIView+GJRedDot.h */,
+				AEE4F6D51FBC485600935529 /* UIView+GJRedDot.m */,
+			);
+			path = GJRedDot;
+			sourceTree = "<group>";
+		};
+		AEE4F6D11FBC485600935529 /* GJDeallocBlockExecutor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GJDeallocBlockExecutor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,9 +421,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B1128B51FB9D12300740DB3 /* Build configuration list for PBXNativeTarget "HTProjectManager" */;
 			buildPhases = (
+				3A25A89A4D31737E760A6A72 /* [CP] Check Pods Manifest.lock */,
 				9B1128841FB9D12300740DB3 /* Sources */,
 				9B1128851FB9D12300740DB3 /* Frameworks */,
 				9B1128861FB9D12300740DB3 /* Resources */,
+				8E6ED4C65AEB6FADA6379C95 /* [CP] Embed Pods Frameworks */,
+				45FF402A0713731602BCA329 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,7 +484,6 @@
 				TargetAttributes = {
 					9B1128871FB9D12300740DB3 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 9MZPVR643S;
 						ProvisioningStyle = Automatic;
 					};
 					9B1128A01FB9D12300740DB3 = {
@@ -256,13 +525,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B96C9DD1FBB073100EE26E5 /* Features in Resources */,
-				9B96C9E11FBB077500EE26E5 /* Tools in Resources */,
-				9B96C9DF1FBB076100EE26E5 /* Network in Resources */,
-				9B96C9E31FBB078E00EE26E5 /* Frameworks in Resources */,
+				AEE4F6AA1FBC30DC00935529 /* proviline_bg@2x.png in Resources */,
 				9B11289B1FB9D12300740DB3 /* LaunchScreen.storyboard in Resources */,
-				9B96C9E51FBB07B500EE26E5 /* Resources in Resources */,
+				AEE4F6A41FBC19A500935529 /* HTLogViewController.xib in Resources */,
 				9B1128981FB9D12300740DB3 /* Assets.xcassets in Resources */,
+				AEE4F6C91FBC455200935529 /* HTMyViewController.xib in Resources */,
+				AEE4F6BF1FBC452B00935529 /* HTFindViewController.xib in Resources */,
+				AEE4F6C41FBC454200935529 /* HTHomeViewController.xib in Resources */,
+				AEE4F6A91FBC30DC00935529 /* proviline_bg.png in Resources */,
+				AEE4F6AB1FBC30DC00935529 /* proviline_bg@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +553,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A25A89A4D31737E760A6A72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		45FF402A0713731602BCA329 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HTProjectManager/Pods-HTProjectManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E6ED4C65AEB6FADA6379C95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HTProjectManager/Pods-HTProjectManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9B1128841FB9D12300740DB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEE4F6D71FBC485600935529 /* UIView+GJRedDot.m in Sources */,
+				AEE4F6C81FBC455200935529 /* HTMyViewController.m in Sources */,
+				AEE4F6AE1FBC440F00935529 /* QLTabbarController.m in Sources */,
+				AEE4F6C31FBC454200935529 /* HTHomeViewController.m in Sources */,
+				AEE4F6D61FBC485600935529 /* GJRedDotView.m in Sources */,
+				AEE4F6A31FBC19A500935529 /* HTLogViewController.m in Sources */,
 				9B1128901FB9D12300740DB3 /* AppDelegate.m in Sources */,
+				AEE4F6BE1FBC452B00935529 /* HTFindViewController.m in Sources */,
+				AEE4F6CF1FBC45E600935529 /* QLTabBarButton.m in Sources */,
+				AEE4F6CE1FBC45E600935529 /* QLTabBar.m in Sources */,
 				9B11288D1FB9D12300740DB3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,9 +755,10 @@
 		};
 		9B1128B61FB9D12300740DB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52390A9E784F6717BECF71A4 /* Pods-HTProjectManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9MZPVR643S;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HTProjectManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cht.HTProjectManager;
@@ -439,9 +768,10 @@
 		};
 		9B1128B71FB9D12300740DB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C179817A4B11C14166F039DC /* Pods-HTProjectManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9MZPVR643S;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HTProjectManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cht.HTProjectManager;

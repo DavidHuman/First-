@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "HTLogViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,7 +19,13 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
+    HTLogViewController *log = [[HTLogViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:log];
+    self.window.rootViewController = nav;
     
     [self.window makeKeyAndVisible];
     
